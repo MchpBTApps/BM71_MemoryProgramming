@@ -27,10 +27,10 @@ The MPLabX example in this repository needs these firmware files (which are in h
 python BM7x_FileCreate.py [-h] [-f1 <FILE1>] [-f2 <FILE2>] [-f3 <FILE3>] [-f4 <FILE4>] [-o <OUTPUT>] [-d <DEBUG>]
 
 where:
-<FILE1> : The .H01 firmware file 
-<FILE2> : The .H02 firmware file 
-<FILE3> : The .H03 firmware file 
-<FILE4> : The .H04 firmware file 
+  <FILE1> : The .H01 firmware file
+  <FILE2> : The .H02 firmware file
+  <FILE3> : The .H03 firmware file
+  <FILE4> : The .H04 firmware file 
 <OUTPUT> : The output filename
 <DEBUG>: The level of Debug messages to be displayed. This is set to 1 (lowest number of debug messages).
 
