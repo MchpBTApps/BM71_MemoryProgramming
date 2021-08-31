@@ -45,7 +45,7 @@ where:
 
 Example:
 
-*C:\>python BM7x_FileCreate_v3.py -f1 RN487x.H00 -f2 RN487x.H01 -f3 RN487x.H02 -f4 RN487x.H03 
+*C:\>python BM7x_FileCreate.py -f1 RN487x.H00 -f2 RN487x.H01 -f3 RN487x.H02 -f4 RN487x.H03 
 -o RN487x_full.txt*
 
 Output from above script:
@@ -60,6 +60,9 @@ Output from above script:
 
 The .txt file created by the python script is the embedded array used by the MPLab project to flash 
 the firmware into the module.
+
+A screen shot showing the result of the python script is shown below:
+![Python script to convert firmware hex files to embedded array](https://github.com/MchpBTApps/BM71_MemoryProgramming/blob/main/BM7x_FileCreate_screenshot.PNG)
 
 ### Executing the MPLabX code
 
@@ -137,7 +140,7 @@ where:
 
 Example:
 
-*python BM7x_MemArr_v1.py -f1 BM70_def.txt -o BM7x_array.txt -d 1*
+*python BM7x_MemArr.py -f1 BM70_def.txt -o BM7x_array.txt -d 1*
 
 Example output from above script:
 - Input file to merge: 'BM70_def.txt', debug level =1
@@ -148,6 +151,10 @@ Finished writing file: BM7x_array.txt
 
 The .txt file created by the python script above is the embedded array used by the MPLab project to write the 
 memory parameters into the module.
+
+A screen shot of the script being executed (file already exists) is shown below:
+![Python script to convert UI tool output to an embedded array](https://github.com/MchpBTApps/BM71_MemoryProgramming/blob/main/BM7x_MemArr_screenshot.PNG)
+
 
 ### Executing the MPLabX code
 
@@ -206,3 +213,6 @@ The following table shows the connections between the BM71 PICTail and the Explo
 |HCI Rx|11|P20/POT/RB5|
 |Vdd|26|Any 3.3V|
 |Ground|28|Any Gnd|
+
+The following shows a simple setup used:
+![Explorer 16 board connected to BM71 PICTail](https://github.com/MchpBTApps/BM71_MemoryProgramming/blob/main/Explorer16_BM71PICTail.jpg)
