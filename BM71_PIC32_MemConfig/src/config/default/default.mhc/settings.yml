@@ -1,0 +1,14 @@
+configName: default
+folderName: RN487x_v2
+format_version: v1.0
+frameworkPath: C:\MicrochipFiles
+processor: PIC32MX570F512L
+projectName: RN487x_v2
+settings:
+  PackageFilter: bsp;bt;core;core_apps_pic32mx;crypto;csp;csp_apps_pic32mx;gfx;net;quick_docs;usb;wireless
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\PIC32MX_DFP\1.5.259\atdf\PIC32MX570F512L.atdf
